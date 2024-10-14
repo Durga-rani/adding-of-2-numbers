@@ -1,0 +1,17 @@
+//adding of two numbers using c
+#include <stdio.h>
+int main() 
+{
+    int s,d, sum;
+    printf("enter first number:");
+    scanf("%d",&s);
+    printf("enter second number:");
+    scanf("%d",&d);
+    sum=s+d;
+    printf("the sum of two numbers is %d",sum);
+    return 0;
+}
+Output
+enter first number:10
+enter second number:30
+the sum of two numbers is 40
